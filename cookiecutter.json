@@ -1,0 +1,12 @@
+{
+  "package_name": null,
+  "project_slug": "{{ cookiecutter.package_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "description": "",
+  "module_name": "{{ cookiecutter.package_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "app_name": "{{ cookiecutter.module_name }}",
+  "cli_script": "{{ cookiecutter.package_name }}",
+  "virtualenv_dir": ".venv",
+  "docker_container_name": "{{ cookiecutter.package_name }}",
+  "python_version": "3.7",
+  "pyenv_python_version": "3.7.0"
+}
